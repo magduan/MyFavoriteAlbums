@@ -3,7 +3,7 @@ library(DT)
 
 # Grab the music data.
 # See documentation for how to format the data
-album_data <- read.csv("data/albums-rankings.csv")
+album_data <- read.csv("data/album-rankings.csv")
 
 # List all of the bands in alphabetical order
 # Used to populate the pull-down menu
