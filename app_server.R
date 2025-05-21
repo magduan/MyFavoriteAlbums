@@ -84,6 +84,16 @@ server <- function(input, output) {
     return(band_album_comparison_chart(input$band_name_1, input$band_name_2))
   })
   
+  # Sixth tab
+  output$text9 <- renderUI({
+    HTML("<h2>Top Bands and Artists</h2><br>")
+  })
+  
+  output$top_bands_table <- renderTable({
+    return(top_bands())
+  })
+  
+  
 }
 
 

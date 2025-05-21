@@ -47,7 +47,10 @@ ui <- fluidPage(
                  selectInput("band_name_1", "First band or artist:", all_bands),
                  selectInput("band_name_2", "Second band or artist:", all_bands),
                  htmlOutput("text9"),
-                 plotOutput("compare_bands"))
+                 plotOutput("compare_bands")),
+        tabPanel("Top Bands and Artists",
+                 htmlOutput("text9"),
+                 tableOutput("top_bands_table")),
       )
     )
 )

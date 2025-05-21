@@ -14,6 +14,9 @@ source("albums_by_year.R")
 source("vinyl.R")
 source("compare_bands.R")
 
+# added
+source("top_bands.R")
+
 # You will need to fill in the `app_ui.R` file to create the layout.
 # Run the app through this file.
 

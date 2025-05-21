@@ -1,9 +1,8 @@
 library(dplyr)
-library(DT)
 
 # Grab the music data.
 # See documentation for how to format the data
-album_data <- read.csv("data/albums-rankings.csv")
+album_data <- read.csv("data/album-rankings.csv")
 
 # Find top-rated albums that the person does not own on vinyl
 missing_vinyl <- function(){
